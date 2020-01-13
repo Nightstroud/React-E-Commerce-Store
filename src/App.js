@@ -7,9 +7,6 @@ import Product from './components/product_details_page/product';
 import Cart from './components/cart_page/cart';
 import Header from './components/base/header';
 
-import { useSelector, useDispatch } from 'react-redux';
-
-
 
 
 function App() {
