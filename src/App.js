@@ -8,6 +8,7 @@ import Cart from './components/cart_page/cart';
 import Header from './components/base/header';
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
