@@ -5,7 +5,7 @@ export default class Cart extends React.Component {
         return (
             <div>
                 <div>
-                    <p>This is the cart page.</p>
+                    <p>This is the cart page and it no longer has the crap in it.</p>
                 </div>
 
             </div>
