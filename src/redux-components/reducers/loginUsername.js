@@ -1,4 +1,4 @@
-const username = (state = JSON.parse(localStorage.getItem('USERNAME')), action) => {
+const username = (state = setUse(), action) => {
     switch (action.type) {
         case 'setUsername': {
             if (window.document.getElementById('username').value === '' || window.document.getElementById('username').value === null || window.document.getElementById('username').value === undefined) {
@@ -15,5 +15,12 @@ const username = (state = JSON.parse(localStorage.getItem('USERNAME')), action) 
             else return state;
     }
 };
+
+function setUse() {
+    if (localStorage.getItem('USERNAME') === null || undefined) {
+        localStorage.setItem('USERNAME', JSON.stringify('User'));
+    }
+    return JSON.parse(localStorage.getItem('USERNAME'));
+}
 
 export default username;
