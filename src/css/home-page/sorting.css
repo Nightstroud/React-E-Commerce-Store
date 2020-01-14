@@ -1,0 +1,15 @@
+.sortingContainer select {
+    margin: 0 0 0 20px;
+}
+
+.sortingContainer {
+    margin: 40px 20px;
+}
+
+.thisasdf {
+    display: flex;
+}
+
+.thisasdf button {
+    margin: 40px;
+}

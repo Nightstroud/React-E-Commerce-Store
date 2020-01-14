@@ -2,143 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c65f626d-fc78-4183-86cb-b3664f8c0af4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/alternate-renderers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/components/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/components/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/components/connectAdvanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/mapDispatchToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/mapStateToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/mergeProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/selectorFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/verifySubselectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/connect/wrapMapToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useDispatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useReduxContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/Subscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/isPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/reactBatchedUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/reactBatchedUpdates.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/shallowEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/useIsomorphicLayoutEffect.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/verifyPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/es/utils/wrapActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/alternate-renderers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/components/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/components/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/components/connectAdvanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/mapDispatchToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/mapStateToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/mergeProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/selectorFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/verifySubselectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/wrapMapToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useDispatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useReduxContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/Subscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/isPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/reactBatchedUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/reactBatchedUpdates.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/shallowEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/useIsomorphicLayoutEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/useIsomorphicLayoutEffect.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/verifyPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/wrapActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/alternate-renderers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/components/Context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/components/Provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/components/connectAdvanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/mapDispatchToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/mapStateToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/mergeProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/selectorFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/verifySubselectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/connect/wrapMapToProps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useDispatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useReduxContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/hooks/useStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/Subscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/batch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/isPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/reactBatchedUpdates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/reactBatchedUpdates.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/shallowEqual.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/useIsomorphicLayoutEffect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/useIsomorphicLayoutEffect.native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/verifyPlainObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-redux/src/utils/wrapActionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/BrowserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/HashRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/cjs/react-router-dom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/BrowserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/HashRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/warnAboutDeprecatedESMImport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/es/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/modules/BrowserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/modules/HashRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/modules/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/modules/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/modules/utils/locationUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/umd/react-router-dom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/warnAboutDeprecatedCJSRequire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/react-router-dom/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/base/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/login-page/login_modal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-components/actions/setUsername.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-components/reducers/combinor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux-components/reducers/loginUsername.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home_page/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home_page/sorting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/home-page/products.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/home-page/sorting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux-components/reducers/addToCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/base/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/base/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login_page/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login_page/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home_page/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home_page/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product_details_page/product.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/base/header_styling.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/base/header_styling.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -201,7 +75,7 @@
       <updated>1578863729473</updated>
       <workItem from="1578863730601" duration="11954000" />
       <workItem from="1578893932931" duration="6818000" />
-      <workItem from="1578942882907" duration="1260000" />
+      <workItem from="1578942882907" duration="16005000" />
     </task>
     <servers />
   </component>

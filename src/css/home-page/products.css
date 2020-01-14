@@ -1,0 +1,50 @@
+.Product {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    margin: 20px 0;
+}
+
+.Image {
+    background-color: darkblue;
+}
+
+.Body {
+    margin: 10px 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Title {
+    font-size: 30px;
+}
+.Description {
+    font-size: 15px;
+}
+.Ratings {
+    display: flex;
+    flex-direction: row;
+}
+.Input {
+    display: flex;
+    flex-direction: row;
+}
+.Price {
+    margin: 0 10px 0 0;
+}
+.Stars {
+    font-size: 10px;
+}
+button {
+    margin: 0 0 0 auto;
+    background-color: darkblue;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border: white 5px solid;
+}

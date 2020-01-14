@@ -9,12 +9,11 @@ export default function Header() {
     return (
         <div className={'header_bar'}>
             <div className={'header_container'}>
-                <div>{username}</div>
+                <div id={'headerUsername'}>User: {username}</div>
                 <div className={'links'}>
                     <ul>
                         <li><a href={'http://localhost:3000/login'}>Login</a></li>
                         <li><a href={'http://localhost:3000/home'}>Home</a></li>
-                        <li><a href={'http://localhost:3000/products_page'}>Products Page</a></li>
                         <li><a href={'http://localhost:3000/cart'}>Cart</a></li>
                     </ul>
                 </div>
