@@ -14,13 +14,9 @@ export default class Product extends React.Component {
         this.setState({object: data});
     }
 
-    check(value) {
-        localStorage.setItem('VALUESORT', JSON.stringify(value));
-    }
-
     render() {
         if (this.state.object) {
-            let cart = JSON.parse(localStorage.getItem(`CART_${window.document.getElementById('headerUsername').innerText.trim().toUpperCase()}`));
+            let cart = JSON.parse(localStorage.getItem(`CART_USER: ${JSON.parse(localStorage.getItem('USERNAME')).trim().toUpperCase()}`));
             if (!cart) {
                 cart = [];
             }
@@ -51,7 +47,7 @@ export default class Product extends React.Component {
                                             <button onClick={() => {
                                                 cart[cart.length] = Product;
                                                 console.log(cart);
-                                                localStorage.setItem(`CART_${window.document.getElementById('headerUsername').innerText.trim().toUpperCase()}`, JSON.stringify(cart));
+                                                localStorage.setItem(`CART_USER: ${JSON.parse(localStorage.getItem('USERNAME')).trim().toUpperCase()}`, JSON.stringify(cart));
                                                 window.location.replace('http://localhost:3000/cart');
                                             }}>Add to Cart</button>
                                         </div>
@@ -77,7 +73,7 @@ export default class Product extends React.Component {
                     {
                         this.state.object.map(Product => {
                             if (valueX !== Product.category) {
-                                return;
+                                return <div key={Product.id}></div>;
                             }
                             return <div key={Product.id} className='Product'>
                                 <div className='Image'><img src={Product.img} alt={'NOTHING'}/></div>
@@ -92,7 +88,7 @@ export default class Product extends React.Component {
                                         <button onClick={() => {
                                             cart[cart.length] = Product;
                                             console.log(cart);
-                                            localStorage.setItem(`CART_${window.document.getElementById('headerUsername').innerText.trim().toUpperCase()}`, JSON.stringify(cart));
+                                            localStorage.setItem(`CART_USER: ${JSON.parse(localStorage.getItem('USERNAME')).trim().toUpperCase()}`, JSON.stringify(cart));
                                             window.location.replace('http://localhost:3000/cart');
                                         }}>Add to Cart</button>
                                     </div>
